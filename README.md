@@ -1,7 +1,7 @@
 # ANANAX ANALYTICAL CIRCULAR
 ## Acoustic Models details :
 ### The aim of this box :
-*Allows among other things the creation of initialization variables, environment variables or even structure test and the input XML file reading.*
+*Allows among other things to get from input file, thermodynamic file conditions (etc.)*
 
 ### The left side :
 
