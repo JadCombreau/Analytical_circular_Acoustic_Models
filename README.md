@@ -1,5 +1,5 @@
 # ANANAX ANALYTICAL CIRCULAR
-## Initialization details :
+## Acoustic Models details :
 
 ### The left side :
 
