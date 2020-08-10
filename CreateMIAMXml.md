@@ -1,14 +1,14 @@
 ## Create MIAM XML
 ### Script Language
 
-All the __Create MIAM XML__ is written in Python language.
+All the __Create MIAM XML__ is written in __Python__ language.
 ### What the box does ?
 
-This part box of the Workflow nammed  __Create MIAM XML__ is for (as its name suggests) the input XML verifiying and reading. We must therefore retrieve the values that interest us.
+This part box of the Workflow nammed  __Create MIAM XML__ is for the creation of an XML file at the MIAM format. 
 
-We must check the structure of the XML input file by running a specific XSD file.
+Indeed to launch the Madiwhax analytical solver, we need a specific format for the XML file, we must therefore recreate an XML file from the data that we were able to obtain and modify (like the thermodynamic conditions for example)
 
-In the case of this Workflow (*Canonical Intake*), we need to retrieve the values for the number and the name of the configurations, the number of treatments, the frequencies as well as the name of the post-processing process (his list is not exhaustive).
+The type of tree chosen was: *conf_liner_mat_freq*, it means that we have a repository for each frequency of each material (a material is in fact the *treatment* variable in the XML file) and of each liner of each configuration.
 
 *__Create MIAM XML__ box is preceded by the __Create Folders__ box which consist in the repository creation (contained in the *namesOfFolder* agregate) and followed by the __Get Mesh & Models Frequencies__ box which consist in the recovery of the linear frequencies and the mesh frequencies (this is just, in fact linear frequencies to which we applied a step).*
 
