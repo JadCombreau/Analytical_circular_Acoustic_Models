@@ -1,21 +1,22 @@
 # ANANAX ANALYTICAL CIRCULAR
 ## Acoustic Models details :
 ### The aim of this box :
-*Allows among other things to get from input file, thermodynamic file conditions (etc.)*
+
+*This box allows the creation of all the variables and their preparation for the acoustic calculation. it contains several parts that I will detail as I go along.*
 
 ### The Composition :
 
-- __Update Monitoring "running" :__ *to be continued*
+- __Update Monitoring "running" :__ *allows to update the status of the Workflow and to pass the finished parts at "running" (using DOM Python API)*
 - __Create MIAM Xml :__ *to be continued*
 - __Reference to Miam_v2019r1 :__ *to be continued*
 - __Read MIAM Xml :__ *to be continued*
 - __MIAM Execution :__ *to be continued*
 - __Copy Materials :__ *to be continued*
-- __Build Paths :__ *to be continued*
+- __Build Paths :__ *allows the creation of different file paths necessary for all the Workflow*
 - __Create Madicyl Model :__ *to be continued*
 - __Copy Model :__ *to be continued*
-- __Skipping Models Generation :__ *to be continued*
-- __Update Monitoring "completed" :__ *to be continued*
+- __Skipping Models Generation :__ *if we already have a file for a given frequency, we do not need to restart the calculations.*
+- __Update Monitoring "completed" :__ *allows to update the status of the Workflow and to pass the finished parts at "completed" (using DOM Python API)*
 
 ### The left side :
 
