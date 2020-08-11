@@ -4,7 +4,7 @@
 All the __Update Monitoring "Completed"__ box is written in Python language.
 ### What the box does ?
 
-This script allows to update the status of the workflow and to pass the finished parts in *"completed"*.
+This script allows to update the status of the workflow and to pass the finished parts at *"completed"*.
 It allows to modify the XML file directly (using of the Python language DOM API - *Document Object Model*) which allows you to access the tree structure of an XML file and thus read or modify the nodes and information that interest us.
 
 __Update Monitoring "Completed"__ box is preceded by the __Copy Init__ box which consists in copying folders from our Job folder (after modifications) into the Numacous folder. This is the last box of the Initialization part.
